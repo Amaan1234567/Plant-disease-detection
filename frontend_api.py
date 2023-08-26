@@ -19,3 +19,5 @@ data={"data":img.tolist()}
 response = requests.post(test_url,json=data)
 # decode response
 print(json.loads(response.text))
+
+#image dimension to be sent is 256x256
