@@ -1,7 +1,6 @@
 import torch
 import torchvision
 from flask import Flask,request,render_template, make_response,Response
-import numpy as np
 from flask_cors import CORS
 import json as json
 import jsonpickle
